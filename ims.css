@@ -1,0 +1,61 @@
+/* styles.css */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    padding: 20px;
+}
+
+.grid-item {
+    position: relative;
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+.grid-item:nth-child(1) {
+    background: url('images/Rectangle\ 5.png') no-repeat center center/cover;
+    grid-column: span 2;
+}
+
+.grid-item:nth-child(2) {
+    background: url('indonesia.jpg') no-repeat center center/cover;
+    grid-column: span 2;
+}
+
+.grid-item:nth-child(3) {
+    background: url('srilanka.jpg') no-repeat center center/cover;
+}
+
+.grid-item:nth-child(4) {
+    background: url('north-america.jpg') no-repeat center center/cover;
+}
+
+.grid-item:nth-child(5) {
+    background: url('kashmir.jpg') no-repeat center center/cover;
+}
+
+.grid-item:nth-child(6) {
+    background: url('bangladesh.jpg') no-repeat center center/cover;
+}
+
+.grid-item:nth-child(7) {
+    background: url('bandarban.jpg') no-repeat center center/cover;
+}
+
+.overlay {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    font-size: 1.2em;
+    font-weight: bold;
+}
