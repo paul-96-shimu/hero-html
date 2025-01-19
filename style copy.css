@@ -395,38 +395,26 @@ a:focus {
 }
 
 /* choose your destinationur  */
-/* .grid-container {
-    display: grid;
-    /grid-template-columns: repeat(12, 1fr); 
-
-    grid-template-rows: 300px 286px 300px;
-
-    gap: 24px;
-
-    width: calc(100% - 48px);
-
-    max-width: 1200px;
-    margin: 0 auto; */
 .grid-container {
     display: grid;
-    /* grid-template-rows: 300px 286px 300px; */
+    /* grid-template-columns: repeat(12, 1fr); */
+    /* 4 equal columns */
+    grid-template-rows: 300px 286px 300px;
+    /* Explicit row heights */
     gap: 24px;
+    /* Uniform gap between items */
+    width: calc(100% - 48px);
+    /* Account for grid gaps */
     max-width: 1200px;
-    width: 100%;
     margin: 0 auto;
-    grid-template-columns: repeat(12, 1fr);
-    gap: 10px;
-    padding: 10px;
 }
-
-
 
 .grid-item {
     position: relative;
     background-size: cover;
     background-position: center;
     border-radius: 8px;
-
+    /* Rounded corners */
     overflow: hidden;
     color: #fff;
     font-size: 150%;
@@ -437,60 +425,90 @@ a:focus {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
+/* .grid-item::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: var(--overlay-color);
+    z-index: 1;
+} */
 
+/* .grid-item span {
+    z-index: 2;
+} */
+
+/* Background images for each item */
 .maldives {
-    /* grid-column: span 6;
-    grid-row: 1 / 2; */
     grid-column: span 6;
-    height: 200px;
-
+    grid-row: 1 / 2;
+    /* Place in the first row */
     background-image: url('/Images/Rectangle\ 5.png');
 }
 
 .indonesia {
     grid-column: span 6;
-    height: 200px;
-    /* grid-row: 1 / 2; */
+    grid-row: 1 / 2;
+    /* Place in the first row */
     background-image: url('Images/Rectangle\ 8.png');
 }
 
 .srilanka {
     grid-column: span 4;
-    height: 150px;
-    /* grid-row: 2 / 3; */
+    /* Medium width */
+    grid-row: 2 / 3;
+    /* Place in the second row */
     background-image: url('Images/Rectangle\ 6.png');
 }
 
 .north-america {
     grid-column: span 5;
-    height: 150px;
-    /* grid-row: 2 / 3; */
+    /* Very large width */
+    grid-row: 2 / 3;
+    /* Place in the second row */
     background-image: url('Images/Rectangle\ 7.png');
 }
 
 .kashmir {
     grid-column: span 3;
-    height: 150px;
-    /* grid-row: 2 / 3; */
-
+    /* Same width as Sri Lanka */
+    grid-row: 2 / 3;
+    /* Place in the second row */
     background-image: url('Images/Rectangle\ 9.png');
 }
 
 .bangladesh {
     grid-column: span 5;
-    /* grid-row: 3 / 4; */
-    height: 180px;
+    grid-row: 3 / 4;
+    /* Place in the third row */
     background-image: url('Images/Rectangle\ 10.png');
 }
 
 .bandarban {
     grid-column: span 7;
-    height: 180px;
+    grid-row: 3 / 4;
+    /* Place in the third row */
     background-image: url('Images/Rectangle\ 11.png');
 }
 
 
+/* 
+.Images-section h2 {
 
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    font-size: 1.2em;
+    font-weight: bold;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    z-index: 2;
+    transform: translate(-50%, -50%);
+
+} */
 
 /* deals & discount */
 
@@ -876,10 +894,10 @@ a:focus {
 .travel-tag {
     position: absolute;
     bottom: 32%;
-    right: 2%;
+    right: 1%;
     width: 324px;
     height: 120px;
-    transform: rotate(-26.628deg);
+    transform: rotate(-19.628deg);
     flex-shrink: 0;
     border-radius: 16px;
     background: #FF5400;
@@ -1132,7 +1150,7 @@ a:focus {
 
     .header-wrapper .header-inner {
         flex-direction: column;
-
+        align-items: flex-start;
         margin-top: 20px;
     }
 
@@ -1236,7 +1254,7 @@ a:focus {
     }
 
     .travel-com img {
-        width: 335px;
+        width: 100%;
         height: auto;
     }
 
@@ -1282,44 +1300,10 @@ a:focus {
         padding-right: 0px;
     }
 
-    .card-box1,
-    .card-box2,
-    .card-box3 {
+    .card-box1 {
+        .card-box1 {
+            width: 335px;
+        }
 
-        width: 335px;
+            {}
     }
-
-    .description h1 {
-        font-size: 20px;
-    }
-
-    .description p {
-        font-size: 14px;
-    }
-
-    .description ul li {
-
-
-
-        font-size: 14px;
-    }
-
-    .hill-img {
-        width: 335px;
-    }
-
-    .grid-container {
-        grid-template-columns: repeat(1, 1fr);
-
-    }
-
-    .maldives,
-    .indonesia,
-    .srilanka,
-    .north-america,
-    .kashmir,
-    .bangladesh,
-    .bandarban {
-        grid-column: span 1;
-    }
-}

@@ -5,10 +5,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Hero travel</title>
+    <script src="https://kit.fontawesome.com/585f6c273e.js" crossorigin="anonymous"></script>
+
     <link rel="stylesheet" href="style.css">
 </head>
 
-<body>
+<body class="fira-sans-thin">
     <header class="header-wrapper">
         <div class="container">
 
@@ -41,7 +43,7 @@
 
                         <option>Select Type</option>
                     </select>
-                    <button class="btn-first">Find Now</button>
+                    <button class="btn-first"> <i class="fa-solid fa-magnifying-glass"></i>Find Now</button>
 
                 </form>
 
@@ -53,7 +55,7 @@
         <section class="slide-section">
             <div class="container">
                 <div class="main-content">
-                    <div>
+                    <div class="description">
                         <h1>Our Popular Tours</h1>
                         <p>Dolor sit amet consectetur. Diam volutpat neque habitasse pharetra odio sit massa. Sodales
                             dictumst
@@ -89,56 +91,25 @@
                     <p class="text-light-gray">Dolor sit amet consectetur. Diam volutpat neque habitasse pharetra
                         odio
                         sit
-                        massa. Sodales dictumst nec nibh pellentesque.
+                        massa. <br> Sodales dictumst nec nibh pellentesque.
                     </p>
                 </div>
                 <div class="grid-container">
-                    <div class="Images-section">
-                        <img src="Images/Rectangle 5.png" alt="">
-
-                        <h2>Maldives</h2>
-                    </div>
-
-                    <div class="Images-section">
-                        <img src="Images/Rectangle 8.png" alt="">
-                        <h2>Indonesia</h2>
-
-                    </div>
-
-
-                    <div class="Images-section">
-                        <img src="Images/Rectangle 6.png" alt="">
-                        <h2>Srilanka</h2>
-
-                    </div>
-                    <div class="Images-section">
-                        <img src="Images/Rectangle 7.png" alt="">
-                        <h2>North America</h2>
-
-                    </div>
-                    <div class="Images-section">
-                        <img src="Images/Rectangle 9.png" alt="">
-                        <h2>Kashmir</h2>
-
-                    </div>
-
-
-                    <div class="Images-section">
-                        <img src="Images/Rectangle 11.png" alt="">
-                        <h2>Bangladesh</h2>
-
-                    </div>
-                    <div class="Images-section">
-                        <img src="Images/Rectangle 10.png" alt="">
-                        <h2>Bandarban</h2>
-
+                    <div class="grid-container">
+                        <div class="grid-item maldives">Maldives</div>
+                        <div class="grid-item indonesia">Indonesia</div>
+                        <div class="grid-item srilanka">Sri Lanka</div>
+                        <div class="grid-item north-america">North America</div>
+                        <div class="grid-item kashmir">Kashmir</div>
+                        <div class="grid-item bangladesh">Bangladesh</div>
+                        <div class="grid-item bandarban">Bandarban</div>
                     </div>
                 </div>
 
             </div>
 
 
-            </div>
+
 
 
         </section>
@@ -148,7 +119,7 @@
             <div class="choose-iteams">
                 <div class="container">
                     <h1>Why Choose Us</h1>
-                    <p>Dolor sit amet consectetur. Diam volutpat neque habitasse pharetra odio sit massa. Sodales
+                    <p>Dolor sit amet consectetur. Diam volutpat neque habitasse pharetra odio sit massa. <br>Sodales
                         dictumst
                         nec
                         nibh pellentesque.</p>
@@ -160,45 +131,48 @@
                 <div class="container">
                     <div class="card-container">
 
-                        <div class="card">
+                        <div class="card-box1">
                             <div class="icon">
                                 <img src="Images/hotel 1.svg" alt="Handpicked Hotels Icon">
                             </div>
-                            <h3>Handpicked Hotels</h3>
-                            <p>Amet consectetur. Vulputate commodo felis molestie risus ornare nulla amet
+                            <h3 class="section-title">Handpicked Hotels</h3>
+                            <p class="section-description">Amet consectetur. Vulputate commodo felis molestie risus
+                                ornare nulla amet
                                 et. Libero
                                 commodo
                                 sagittis dignissim adipiscing quis. Habitant adipiscing risus natoque
                                 aliquet.</p>
 
                         </div>
-                        <div class="card">
+                        <div class="card-box2">
                             <div class="icon">
                                 <img src="Images/map 1.svg" alt="World Class Service Icon">
                             </div>
-                            <h3>World Class Service</h3>
-                            <p>Amet consectetur. Vulputate commodo felis molestie risus ornare nulla amet
+                            <h3 class="section-title">World Class Service</h3>
+                            <p class="section-description">Amet consectetur. Vulputate commodo felis molestie risus
+                                ornare nulla amet
                                 et. Libero
                                 commodo
                                 sagittis dignissim adipiscing quis. Habitant adipiscing risus natoque
                                 aliquet.</p>
                         </div>
-
-                        <div class="card">
-                            <div class="icon">
-                                <img src="Images/price-tag 1.svg" alt="Best Price Guarantee Icon">
-                            </div>
-                            <h3>Best Price Guarantee</h3>
-                            <p>Amet consectetur. Vulputate commodo felis molestie risus ornare nulla amet
-                                et. Libero
-                                commodo
-                                sagittis dignissim adipiscing quis. Habitant adipiscing risus natoque
-                                aliquet.</p>
-                        </div>
-
-
-
                     </div>
+                    <div class="card-box3">
+                        <div class="icon">
+                            <img src="Images/price-tag 1.svg" alt="Best Price Guarantee Icon">
+                        </div>
+                        <h3 class="section-title">Best Price Guarantee</h3>
+                        <p class="section-description">Amet consectetur. Vulputate commodo felis molestie risus
+                            ornare nulla amet
+                            et. Libero
+                            commodo
+                            sagittis dignissim adipiscing quis. Habitant adipiscing risus natoque
+                            aliquet.</p>
+                    </div>
+
+
+
+
                 </div>
             </div>
         </section>
@@ -206,54 +180,74 @@
             <div class="container">
                 <div class="deals-part">
                     <h1>Deals & Discounts</h1>
-                    <p>Dolor sit amet consectetur. Diam volutpat neque habitasse pharetra odio sit massa. Sodales
+                    <p>Dolor sit amet consectetur. Diam volutpat neque habitasse pharetra odio sit massa. <br> Sodales
                         dictumst nec nibh pellentesque.</p>
                 </div>
                 <div class="discount-section">
                     <div class="book-now">
+                        <img src="Images/Frame (2).png" alt="7 Day / 6 Night">
+                        <span>7 Day / 6 Night</span>
+                        <img src="Images/Frame (1).png" alt="">
+                        <span>Max : 10</span>
+                        <img src="Images/Frame (3).png" alt="">
+                        <span>Malaysia</span>
                         <h1>Tour To Satorini</h1>
-                        <p>Amet consectetur. Vulputate commodo felis
-                            molestie risus ornare nulla amet et. Libero commodo sagittis dignissim adipiscing quis.
+                        <p>Amet consectetur. Vulputate commodo felis <br>
+                            molestie risus ornare nulla amet et. Libero commodo sagittis <br>dignissim adipiscing quis.
                             Habitant adipiscing.</p>
-                        <h3> <span class="home">Price: $1300-$1500</span></h3>
-                        <button class="btn-primary">Book Now</button>
+
+                        <h3> Price: $1300-$1500</h3>
+                        <button class="btn">Book Now</button>
 
                     </div>
 
                 </div>
                 <div class="discount-part">
                     <div class="tour-satorini">
+                        <img src="Images/Frame (2).png" alt="7 Day / 6 Night">
+                        <span>7 Day / 6 Night</span>
+                        <img src="Images/Frame (1).png" alt="">
+                        <span>Max : 10</span>
+                        <img src="Images/Frame (3).png" alt="">
+                        <span>Malaysia</span>
                         <h1>Tour To Satorini</h1>
-                        <p>Amet consectetur. Vulputate commodo felis
-                            molestie risus ornare nulla amet et. Libero commodo sagittis dignissim adipiscing quis.
+                        <p>Amet consectetur. Vulputate commodo felis <br>
+                            molestie risus ornare nulla amet et. Libero commodo sagittis <br>dignissim adipiscing quis.
                             Habitant adipiscing.</p>
-                        <h3> <span class="home">Price: $1300-$1500</span></h3>
-                        <button class="btn-primary">Book Now</button>
+                        <h3>Price: $1300-$1500</h3>
+                        <button class="btn">Book Now</button>
                     </div>
 
                 </div>
                 <div class="discount-section">
                     <div class="book-now">
+                        <img src="Images/Frame (2).png" alt="7 Day / 6 Night">
+                        <span>7 Day / 6 Night</span>
+                        <img src="Images/Frame (1).png" alt="">
+                        <span>Max : 10</span>
+                        <img src="Images/Frame (3).png" alt="">
+                        <span>Malaysia</span>
                         <h1>Tour To Satorini</h1>
-                        <p>Amet consectetur. Vulputate commodo felis
-                            molestie risus ornare nulla amet et. Libero commodo sagittis dignissim adipiscing quis.
+                        <p>Amet consectetur. Vulputate commodo felis <br>
+                            molestie risus ornare nulla amet et. Libero commodo sagittis <br> dignissim adipiscing quis.
                             Habitant adipiscing.</p>
 
-                        <h3> <span class="home">Price: $1300-$1500</span></h3>
-                        <button class="btn-primary">Book Now</button>
+                        <h3>Price: $1300-$1500</h3>
+                        <button class="btn">Book Now</button>
 
                     </div>
 
                 </div>
-                <button class="btn-last">See All Packages</button>
+                <div class="button1"> <button class="btn-last">See All Packages</button></div>
+
             </div>
 
         </section>
         <!-- simple perfect place -->
         <section class="perfect-place">
             <div class="container">
-                <div class="simple-perfect">
-                    <div>
+                <div class="simple-place">
+                    <div class="simple">
                         <h1>A Simple Perfect Place To Get Lost</h1>
                         <p>Amet consectetur. Vulputate commodo felis molestie risus ornare nulla amet et. Libero commodo
                             sagittis dignissim adipiscing quis. </p>
@@ -274,7 +268,7 @@
         <section class="newsletter">
             <div class="container">
 
-                <div class=" simple-place">
+                <div class="get-daily">
                     <div class=" get-lost">
                         <h1>Newsletter</h1>
                         <p>
@@ -294,7 +288,7 @@
 
                     <div class="travel-com">
                         <img src="Images/Rectangle 8 (1).png" alt="">
-                        <div class="travel-tag">Travel.com <br>
+                        <div class="travel-tag"> <span class="up-to">Travel.com </span><br>
                             Save up to 70%</div>
                     </div>
 
@@ -311,11 +305,14 @@
                 </a>
                 <p>
                     Lorem ipsum dolor sit amet consectetur. Nulla sit viverra morbi vitae blandit orci potenti
-                    vulputate. Leo erat maecenas vitae elementum ultricies nullam.
+                    vulputate. Leo <br> erat maecenas vitae elementum ultricies nullam.
                 </p>
                 <div class="socila">
                     <img src="Images/all icon.svg" alt="">
+
                 </div>
+                <div class="border"></div>
+                <h6>2017, All Rights Reserved.</h6>
 
             </div>
 

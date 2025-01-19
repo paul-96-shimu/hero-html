@@ -1,0 +1,777 @@
+/*=======================================================================================
+                                :-Start Responsive Css-:-
+*=============================================================================================*/
+
+/*=======================================================================================
+                                :-large/dasktop Layout-:-
+*=============================================================================================*/
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+
+    /* -------------------------------
+        Slider
+    --------------------------------- */
+    .homepage-slider-wrapper {
+        padding-bottom: 68px;
+
+    }
+
+    .single-slide-item {
+        padding-bottom: 50px;
+
+    }
+
+    .slider-contant {
+        max-width: 460px;
+    }
+
+    .slider-contant h4 {
+        padding-top: 39px;
+
+    }
+
+    .slider-contant p {
+        padding: 53px 0 30px 0;
+    }
+
+    .homepage-slide .owl-dots {
+        left: 0;
+    }
+
+    /* -------------------------------
+        menubar
+    --------------------------------- */
+    .main-manu ul li a {
+        padding: 30px 11px;
+    }
+
+    /* -------------------------------
+        Spacial feature
+    --------------------------------- */
+
+    .single-wrapper {
+        height: 370px;
+
+    }
+
+    /* -------------------------------
+        Counter
+    --------------------------------- */
+    .conunter-contant li {
+        margin: 0 0px 0 68px;
+    }
+
+    /* -------------------------------
+        Faq
+    --------------------------------- */
+    .faq-right {
+        margin-left: 45px;
+    }
+
+}
+
+/*=======================================================================================
+                                :-Tab Layout-:-
+*=============================================================================================*/
+@media only screen and (max-width: 991px) {
+
+    .p-t-b {
+        padding: 70px 0 80px 0;
+    }
+
+    .p-b {
+        padding-bottom: 80px;
+    }
+
+    .p-t-70 {
+        padding-top: 0px;
+
+    }
+
+    /* -------------------------------
+        Slider
+    --------------------------------- */
+    .slider-contant {
+        max-width: 412px !important;
+    }
+
+    .homepage-slider-wrapper {
+        padding-bottom: 68px;
+
+    }
+
+    .single-slide-item {
+        padding-bottom: 50px;
+
+    }
+
+    .slider-contant {
+        max-width: 696px;
+    }
+
+    .slider-contant h4 {
+        padding-top: 39px;
+
+    }
+
+    .slider-contant p {
+        padding: 53px 0 30px 0;
+    }
+
+    /* -------------------------------
+        Mobile Menu
+    --------------------------------- */
+    .toggle-menu {
+        display: block;
+    }
+
+    .mobile-munu-cross {
+        display: block;
+    }
+
+    #menu1 {
+        display: block !important;
+    }
+
+    .mega-menu li a:hover {
+        background: #f5f9ff !important;
+    }
+
+    .mega-menu li a {
+        width: 100% !important;
+        padding-left: 9% !important;
+    }
+
+    .mobile-manu-container {
+        background: #2B438E;
+        position: fixed;
+        width: 100%;
+        height: 100%;
+        top: 0%;
+        right: -100%;
+        transition: 0.5s ease;
+        overflow-y: scroll;
+        z-index: 9;
+
+    }
+
+    .mobile-munu-cross {
+        right: 0%;
+        position: absolute;
+        top: 0;
+        background: #fff;
+        z-index: 9999;
+        display: block;
+        z-index: 99999999;
+        width: 51px;
+        height: 48px;
+        text-align: center;
+        line-height: 40px;
+        cursor: pointer;
+    }
+
+    .page-hover i {
+        display: none;
+    }
+
+    .mobile-munu-cross img {
+        display: inline-block;
+    }
+
+    .scroll-manu {
+        display: none;
+        opacity: 0;
+        transform: scale(0);
+    }
+
+    .single-service .learn-more {
+        padding-top: 0;
+    }
+
+    /* -------------------------------
+        About App
+    --------------------------------- */
+    .about-app-list a {
+        width: 100%;
+    }
+
+    /* -------------------------------
+        App Feature
+    --------------------------------- */
+    .app-feature-img {
+        float: none;
+        margin-top: 0;
+        padding-bottom: 20px;
+    }
+
+    .app-feature-img,
+    .app-feature-img img {
+        width: 100%;
+    }
+
+    /* -------------------------------
+        spacial feature
+    --------------------------------- */
+    .single-wrapper {
+        height: 348px;
+    }
+
+    /* -------------------------------
+        Video
+    --------------------------------- */
+    .videopopupjs__content {
+        height: 400px !important;
+        margin-top: 5% !important;
+    }
+
+    /* -------------------------------
+        Testimonial
+    --------------------------------- */
+
+    .tesimonial-slide .owl-dots {
+        top: -19px;
+        left: 26%;
+    }
+
+    .tesimonial-slide .owl-stage-outer {
+        padding-top: 26px;
+    }
+
+    .testimonial-contant {
+        padding-left: 45px;
+    }
+
+    /* -------------------------------
+        Team
+    --------------------------------- */
+    .single-team-mamber .overly-contant {
+        height: 38%;
+    }
+
+    /* -------------------------------
+        Counter
+    --------------------------------- */
+    .contant-list {
+        text-align: center;
+    }
+
+    /* -------------------------------
+        Blog
+    --------------------------------- */
+    .blog-inner-contant div:last-child div:first-child {
+        margin-bottom: 0px;
+    }
+
+    .single-blog {
+        margin-bottom: 30px;
+    }
+
+    /* -------------------------------
+        Faq
+    --------------------------------- */
+    .faq-inner-contant {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .faq-right {
+        margin-bottom: 30px;
+        margin-left: 0;
+        text-align: center;
+    }
+
+    /* -------------------------------
+        Footer
+    --------------------------------- */
+    .subscribe-contant form .btn.btn-primary {
+        width: 23%;
+    }
+
+}
+
+/*=======================================================================================
+                                :-Mobile Layout-:-
+*=============================================================================================*/
+@media only screen and (max-width: 767.98px) {
+
+    /*------Initial Part--------*/
+    h2 {
+        font-size: 35px !important;
+    }
+
+    .p-t-b {
+        padding: 50px 0;
+    }
+
+    .p-b {
+        padding-bottom: 50px;
+    }
+
+    /* -------------------------------
+        Slider
+    --------------------------------- */
+    .slider-contant {
+        max-width: 500px !important;
+        text-align: center;
+        margin: 0 auto;
+    }
+
+    .slider-contant h1 {
+        font-size: 40px;
+    }
+
+    .slider-contant h4 {
+        padding-top: 17px;
+    }
+
+    .slider-contant p {
+        padding: 36px 0 30px 0;
+    }
+
+    .right-img {
+        display: none;
+    }
+
+    .left-slide-bg:before {
+        display: none;
+    }
+
+    /* -------------------------------
+        Service Benefit
+    --------------------------------- */
+    .service-benefit {
+        padding-bottom: 65px;
+    }
+
+    .container-fluid-container {
+        padding: 60px 0;
+    }
+
+    .service-benefit,
+    .container-fluid-container {
+        margin-top: 0;
+    }
+
+    .service-benefit .section-title {
+        padding-bottom: 40px;
+    }
+
+    .single-service h4 {
+        padding: 5px 0 9px 0;
+    }
+
+    .single-service .learn-more {
+        padding-top: 0;
+    }
+
+    .single-service .learn-more a {
+        padding-top: 9px;
+    }
+
+    .single-service {
+        margin-bottom: 24px;
+    }
+
+    .serviec-innner-contant div:last-child div:first-child {
+        margin-bottom: 0;
+    }
+
+    /* -------------------------------
+        About App
+    --------------------------------- */
+    .p-t-70 {
+        padding-top: 0;
+    }
+
+    .about-app-list a {
+        width: 60%;
+    }
+
+    .section-title-1 p,
+    .section-title-3 p {
+        padding: 10px 0 40px 0;
+    }
+
+    .about-img {
+        margin: 40px 0 50px 0;
+
+    }
+
+    /* -------------------------------
+        App Features
+    --------------------------------- */
+    #ab-a {
+        padding-bottom: 15px;
+    }
+
+    .app-feature-list span:before {
+        margin-right: 30px;
+    }
+
+    .learn-more-btn .btn-pri {
+        margin: 19px 0px 0px 64px;
+    }
+
+    /* -------------------------------
+        Spacial Features
+    --------------------------------- */
+    .row.feature-contant div:nth-child(4) div:first-child,
+    .row.feature-contant div:nth-child(5) div:first-child {
+        margin-bottom: 40px !important;
+    }
+
+    .row.feature-contant div:nth-child(6) div:first-child {
+        margin-bottom: 10px !important;
+    }
+
+    .single-sp-fetue {
+        padding: 23px 30px 30px 44px;
+    }
+
+    .single-wrapper {
+        height: 251px;
+    }
+
+    .single-sp-fetue i {
+        height: 75px;
+        width: 75px;
+        padding: 16px 23px;
+    }
+
+    .single-sp-fetue h4 {
+        padding: 9px 0 9px 0;
+    }
+
+    /* -------------------------------
+        Video
+    --------------------------------- */
+    .videopopupjs__content {
+        height: 320px !important;
+    }
+
+    /* -------------------------------
+        Testimonial
+    --------------------------------- */
+    .testimonial .section-title-1 p {
+        padding: 10px 0 0 0;
+    }
+
+    .testimonial-img {
+        text-align: center;
+        margin-bottom: 23px;
+    }
+
+    .testimonial-img img {
+        max-width: 150px;
+    }
+
+    .testimonial-contant {
+        padding-left: 0px;
+
+    }
+
+    .tesimonial-slide .owl-dots {
+        position: absolute;
+        top: 92%;
+        left: 50%;
+    }
+
+    /* -------------------------------
+        Counter
+    --------------------------------- */
+    .conunter-contant p {
+        padding-bottom: 12px;
+        padding-top: 29px;
+    }
+
+    .conunter-contant {
+        text-align: center;
+    }
+
+    .conunter-contant p::after {
+        width: 10%;
+        left: 45%;
+        top: 92%;
+    }
+
+    /* -------------------------------
+        Protfolio
+    --------------------------------- */
+    .img-one img {
+        width: 100%;
+    }
+
+    .see-all a {
+        padding: 14px 40px;
+        margin-top: 10px;
+    }
+
+    /* -------------------------------
+        Team
+    --------------------------------- */
+    .single-team-mamber img {
+        width: 100%;
+    }
+
+    .single-team-mamber {
+        margin-bottom: 30px;
+    }
+
+    .single-team-mamber .overly-contant {
+        height: 16%;
+    }
+
+    /* -------------------------------
+        Pricing
+    --------------------------------- */
+    .tab-controller .nav-tabs {
+        margin-bottom: 54px;
+    }
+
+    .single-pricing-table {
+        margin-bottom: 30px;
+    }
+
+    .p-0 {
+        padding-left: 15px !important;
+        padding-right: 15px !important;
+    }
+
+    .faq-left {
+        padding: 15px 0;
+    }
+
+    /* -------------------------------
+        Blog
+    ---------------------------------*/
+    .single-blog .blog-img img {
+        width: 100%;
+    }
+
+    /* -------------------------------
+       Contact
+    ---------------------------------*/
+    .contact-left h3 {
+        font-size: 35px;
+    }
+
+    .container-bg {
+        padding: 0px 0;
+    }
+
+    .contact-left {
+        padding-bottom: 50px;
+
+    }
+
+    .contact-list li {
+        padding-bottom: 16px;
+    }
+
+    /* -------------------------------
+        Footer
+    ---------------------------------*/
+    .row.footer-contant {
+        padding: 63px 0 54px 0;
+        text-align: center;
+    }
+
+    .footer1-title {
+        margin-bottom: 27px;
+    }
+
+    .footer-social {
+        float: none;
+        display: inline-block;
+        padding-top: 17px;
+    }
+
+    .footer-bottom {
+        text-align: center;
+    }
+
+}
+
+
+/*=======================================================================================
+                                :-Small Mobile Layout-:-
+*=============================================================================================*/
+@media only screen and (max-width: 575.98px) {
+    h2 {
+        font-size: 30px;
+    }
+
+    /* -------------------------------
+        Header Top
+    --------------------------------- */
+    .header-top {
+        display: none;
+    }
+
+    /* -------------------------------
+        Slider
+    --------------------------------- */
+    .homepage-slider-wrapper {
+        padding-bottom: 22px;
+    }
+
+    .homepage-slide .owl-dots {
+        display: none;
+    }
+
+    /* -------------------------------
+        Abnout App 
+    --------------------------------- */
+    .about-img {
+        margin-top: 20px;
+        text-align: center;
+    }
+
+    .about-app-list a {
+        width: 100%;
+    }
+
+    /* -------------------------------
+        App Features
+    --------------------------------- */
+    .learn-more-btn .btn-pri {
+        margin: 19px 0px 0px 0px;
+    }
+
+    .secion-title-3 h2 {
+        padding: 5px 0 28px 0;
+    }
+
+    .app-feature-list li {
+        display: inline-block;
+    }
+
+    .fe-list-contant h5 {
+        padding: 8px 0;
+    }
+
+    /* -------------------------------
+        spacial features
+    --------------------------------- */
+    .single-wrapper {
+        height: auto;
+    }
+
+    .single-sp-fetue {
+        position: initial;
+        text-align: center;
+    }
+
+    .single-sp-fetue p {
+        font-size: 15px;
+    }
+
+    .row.feature-contant div:nth-child(4) div:first-child {
+        margin-bottom: 0 !important;
+    }
+
+    .row.feature-contant div:nth-child(6) div:first-child {
+        margin-bottom: 0 !important;
+    }
+
+    .single-wrapper:hover .single-sp-fetue {
+        transform: translateX(0px) translateY(0px);
+    }
+
+    /* -------------------------------
+        Testimonial
+    --------------------------------- */
+
+    .tesimonial-slide .owl-dots {
+        position: absolute;
+        left: 60%;
+    }
+
+    /* -------------------------------
+        Team
+    --------------------------------- */
+    .single-team-mamber .overly-contant {
+        height: 28%;
+    }
+
+    /* -------------------------------
+        Price Table
+    --------------------------------- */
+    .nav-tabs .nav-item {
+        margin-bottom: 25px;
+        display: flex;
+        width: 100%;
+        justify-content: center;
+    }
+
+    #myTab li:last-child {
+        margin-bottom: 0;
+    }
+
+    /* -------------------------------
+        Faq
+    --------------------------------- */
+    .faq-left .btn-link {
+        width: 95%;
+        padding: 0px 15px 0px 0px;
+    }
+
+    /* -------------------------------
+        Footer
+    --------------------------------- */
+    .subscribe-contant h3 {
+        font-size: 30px;
+    }
+
+    .subscribe-contant .form-group {
+        margin-bottom: 0;
+    }
+
+    .subscribe-contant .form-group {
+        width: 80%;
+    }
+
+    .subscribe-contant .form-control {
+        height: 50px;
+    }
+
+    .subscribe-contant .form-control::placeholder {
+        font-size: 18px;
+    }
+
+    .subscribe-contant form .btn.btn-primary {
+        width: 45%;
+        margin-top: 25px;
+        font-size: 18px;
+        height: 50px;
+    }
+
+    .footer1-title {
+        margin-bottom: 0px;
+    }
+
+    .footer2-title h3 {
+        padding-bottom: 8px;
+        padding-top: 25px;
+        font-weight: 700;
+    }
+
+
+}
+
+/*=======================================================================================
+                                :- Small Mobile Layout-:-
+*=============================================================================================*/
+@media only screen and (max-width: 320px) {
+    .btn-android {
+        margin-bottom: 20px;
+        margin-right: 0;
+
+    }
+
+}
+
+
+
+/*============================================================================
+                        :-End Responsive Css-:-
+*==================================================================================*/
